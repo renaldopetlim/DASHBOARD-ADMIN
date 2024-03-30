@@ -265,3 +265,117 @@ body{
                                     stroke-dashoffset: -30;
                                     stroke-dasharray: 200;
                                 }
+
+    /* Novos Usuários */
+    main .new-users{
+        margin-top: 1.3rem;
+    }
+        main .new-users .user-list{
+            background-color: var(--color-white);
+            padding: var(--card-padding);
+            border-radius: var(--card-border-radius);
+            margin-top: 1rem;
+            box-shadow: var(--box-shadow);
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            gap: 1.4rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+            main .new-users .user-list:hover{
+                box-shadow: none;
+            }
+                main .new-users .user-list .user{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                    main .new-users .user-list .user img{
+                        width: 5rem;
+                        height: 5rem;
+                        margin-bottom: 0.4rem;
+                        border-radius: 50%;
+                    }
+
+    /* Pedidos Recentes */
+    main .recent-orders{
+        margin-top: 1.3rem;
+    }
+    main .recent-orders h2{
+        margin-bottom: 0.8rem;
+    }
+    main .recent-orders table{
+        background-color: var(--color-white);
+        width: 100%;
+        padding: var(--card-padding);
+        text-align: center;
+        box-shadow: var(--box-shadow);
+        border-radius: var(--card-border-radius);
+        transition: all 0.3s ease;
+    }
+    main .recent-orders table:hover{
+        box-shadow: none;
+    }
+    main table tbody td{
+        height: 2.8rem;
+        border-bottom: 1px solid var(--color-light);
+        color: var(--color-dark-variant);
+    }
+    main table tbody tr:last-child td{
+        border: none;
+    }
+    main .recent-orders a{
+        text-align: center;
+        display: block;
+        margin: 1rem auto;
+        color: var(--color-primary);
+    }
+
+    /* Seção da Direita */
+    .right-section{
+        margin-top: 1.4rem;
+    }
+    .right-section .nav{
+        display: flex;
+        justify-content: end;
+        gap: 2rem;
+    }
+    .right-section .nav button{
+        display: none;
+    }
+    .right-section .dark-mode{
+        background-color: var(--color-light);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 1.6rem;
+        width: 4.2rem;
+        cursor: pointer;
+        border-radius: var(--border-radius-1);
+    }
+    .right-section .dark-mode span{
+        font-size: 1.2rem;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .right-section .dark-mode span.active{
+        background-color: var(--color-primary);
+        color: white;
+        border-radius: var(--border-radius-1);
+    }
+    .right-section .nav .profile{
+        display: flex;
+        gap: 2rem;
+        text-align: right;
+    }
+    .right-section .nav .profile .profile-photo{
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 50%;
+        overflow: hidden;
+    }

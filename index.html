@@ -43,7 +43,7 @@
                 <a href="#">
                     <span class="material-icons-sharp">mail_outline</span>
                     <h3>Mensagens</h3>
-                    <span class="message-count">27</span>
+                    <span class="message-count">0</span>
                 </a>
                 <a href="#">
                     <span class="material-icons-sharp">inventory</span>
@@ -121,10 +121,126 @@
                     </div>
                 </div>
             </div>
+
+            <!-- Novos Usuários -->
+            <div class="new-users">
+                <h2>Novos Usuários</h2>
+                <div class="user-list">
+                    <div class="user">
+                        <img src="images/profile-2.jpg">
+                        <h2>Alex</h2>
+                        <p>24 Minutos Atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/profile-3.jpg">
+                        <h2>Kalebe</h2>
+                        <p>3 Horas Atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/profile-4.jpg">
+                        <h2>Clicia</h2>
+                        <p>23 Horas Atrás</p>
+                    </div>
+                    <div class="user">
+                        <img src="images/plus.png">
+                        <h2>Mais</h2>
+                        <p>Novo Usuário</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pedidos Recentes -->
+            <div class="recent-orders">
+                <h2>Pedidos Recentes</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Produto</th>
+                            <th>Código</th>
+                            <th>Pagamento</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody></tbody>
+                </table>
+                <a href="">Veja mais</a>
+            </div>
         </main>
+
+        <!-- Seção da Direita -->
+        <div class="right-section">
+            <div class="nav">
+                <button id="menu-btn">
+                    <span class="material-icons-sharp">menu</span>
+                </button>
+                <div class="dark-mode">
+                    <span class="material-icons-sharp active">light_mode</span>
+                    <span class="material-icons-sharp">dark_mode</span>
+                </div>
+                <div class="profile">
+                    <div class="info">
+                        <p>Olá, <b>Admin</b></p>
+                        <small class="text-muted">Admin</small>
+                    </div>
+                    <div class="profile-photo">
+                        <img src="images/profile-1.jpg">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Seção do Usuário -->
+            <div class="user-profile">
+                <div class="logo">
+                    <img src="images/logo.png">
+                    <h2>SOS Cordas</h2>
+                    <p>Botando CORDA na galera!</p>
+                </div>
+            </div>
+            <div class="reminders">
+                <div class="header">
+                    <h2>Lembretes</h2>
+                    <span class="material-icons-sharp">notifications_none</span>
+                </div>
+                <div class="notification">
+                    <div class="icon">
+                        <span class="material-icons-sharp">volume_up</span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>SOS Cast</h3>
+                            <small class="text_muted">
+                                19:00 PM - 21:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">more_vert</span>
+                    </div>
+                </div>
+                <div class="notification deactive">
+                    <div class="icon">
+                        <span class="material-icons-sharp">edit</span>
+                    </div>
+                    <div class="content">
+                        <div class="info">
+                            <h3>SOS Cast</h3>
+                            <small class="text_muted">
+                                19:00 PM - 21:00 PM
+                            </small>
+                        </div>
+                        <span class="material-icons-sharp">more_vert</span>
+                    </div>
+                </div>
+                <div class="notification add-reminder">
+                    <div>
+                        <span class="material-icons-sharp">add</span>
+                        <h3>Adicionar Lembrete</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
-    <script src="index.js"></script>
     <script src="orders.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

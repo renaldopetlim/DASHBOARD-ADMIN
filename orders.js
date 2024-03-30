@@ -2,7 +2,7 @@ const Orders = [
     {
         productName: 'Encordoamento D`Adarrio EXL110-B 010-046',
         productNumber: '000001',
-        paymentStatus: 'Devido',
+        paymentStatus: 'Em Análise',
         status: 'Pendente'
     },
     {
