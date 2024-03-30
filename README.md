@@ -7,10 +7,10 @@ Tecnologias Usadas: <br>
 • CSS <br>
 • JavaScript
 
-Link: xxx
+Link: (https://dashboard-sos.netlify.app/)
 
 ### Responsividade Desktop:
-<img src="xxx" width="480px">
+<img src="images/responsividade/responsividade-desktop.png" width="480px">
 
 ### Responsividade Mobile:
 <img src="xxx" width="480px">
