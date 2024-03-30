@@ -14,8 +14,6 @@ Link: https://dashboard-sos.netlify.app/
 <img src="images/responsividade/responsividade-desktop-darkmode.png" width="480px">
 
 ### Responsividade Mobile:
-<img src="images/responsividade/mobile_1_lightmode.jpg" width="240px">
-<img src="images/responsividade/mobile_2_lightmode.jpg" width="240px"><br>
-<img src="images/responsividade/mobile_1_darkmode.jpg" width="240px">
-<img src="images/responsividade/mobile_2_darkmode.jpg" width="240px"><br>
+<img src="images/responsividade/mobile_1_lightmode.jpg" width="240px"><img src="images/responsividade/mobile_2_lightmode.jpg" width="240px"><br>
+<img src="images/responsividade/mobile_1_darkmode.jpg" width="240px"><img src="images/responsividade/mobile_2_darkmode.jpg" width="240px"><br>
 <img src="images/responsividade/mobile_3_darkmode.jpg" width="240px">
