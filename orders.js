@@ -17,4 +17,16 @@ const Orders = [
         paymentStatus: 'Pago',
         status: 'Ativo'
     },
+    {
+        productName: 'Encordoamento SG Hybrid Nickel Wound 010-049',
+        productNumber: '000002',
+        paymentStatus: 'Pago',
+        status: 'Ativo'
+    },
+    {
+        productName: 'Encordoamento Ernie Ball Regular Slinky 2221 010-046',
+        productNumber: '000003',
+        paymentStatus: 'Em Análise',
+        status: 'Pendente'
+    },
 ]
